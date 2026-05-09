@@ -11,7 +11,7 @@ bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
 def start(message):
-    bot.reply_to(message, "Starting...")
+    bot.reply_to(message, "Hola!")
 
 
 print("Bot is running...")
